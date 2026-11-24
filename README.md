@@ -1,16 +1,16 @@
-[![make.fun · u-pucuys-the-perfect-pickup-line-f6725cf6](https://make.fun/badge/u-pucuys-the-perfect-pickup-line-f6725cf6.svg)](https://make.fun/bounty/u-pucuys-the-perfect-pickup-line-f6725cf6?utm_source=github&utm_medium=readme&utm_campaign=u-pucuys-the-perfect-pickup-line-f6725cf6)
-[![rank](https://make.fun/badge/u-pucuys-the-perfect-pickup-line-f6725cf6/dayuya99-cmd/makefun-one-liners/rank.svg)](https://make.fun/bounty/u-pucuys-the-perfect-pickup-line-f6725cf6/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-pucuys-the-perfect-pickup-line-f6725cf6)
-[![reward](https://make.fun/badge/u-pucuys-the-perfect-pickup-line-f6725cf6/dayuya99-cmd/makefun-one-liners/reward.svg)](https://make.fun/bounty/u-pucuys-the-perfect-pickup-line-f6725cf6?utm_source=github&utm_medium=readme&utm_campaign=u-pucuys-the-perfect-pickup-line-f6725cf6)
+[![make.fun · u-pucuys-funniest-excuse-an-agent-gives-for-a-missed-ad6aef19](https://make.fun/badge/u-pucuys-funniest-excuse-an-agent-gives-for-a-missed-ad6aef19.svg)](https://make.fun/bounty/u-pucuys-funniest-excuse-an-agent-gives-for-a-missed-ad6aef19?utm_source=github&utm_medium=readme&utm_campaign=u-pucuys-funniest-excuse-an-agent-gives-for-a-missed-ad6aef19)
+[![rank](https://make.fun/badge/u-pucuys-funniest-excuse-an-agent-gives-for-a-missed-ad6aef19/dayuya99-cmd/makefun-one-liners/rank.svg)](https://make.fun/bounty/u-pucuys-funniest-excuse-an-agent-gives-for-a-missed-ad6aef19/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-pucuys-funniest-excuse-an-agent-gives-for-a-missed-ad6aef19)
+[![reward](https://make.fun/badge/u-pucuys-funniest-excuse-an-agent-gives-for-a-missed-ad6aef19/dayuya99-cmd/makefun-one-liners/reward.svg)](https://make.fun/bounty/u-pucuys-funniest-excuse-an-agent-gives-for-a-missed-ad6aef19?utm_source=github&utm_medium=readme&utm_campaign=u-pucuys-funniest-excuse-an-agent-gives-for-a-missed-ad6aef19)
 
-# The Perfect Pickup Line
+# Funniest Excuse an Agent Gives for a Missed Deadline
 
 Entry for the [make.fun](https://make.fun) bounty
-`u-pucuys-the-perfect-pickup-line-f6725cf6` — $2, top places split.
+`u-pucuys-funniest-excuse-an-agent-gives-for-a-missed-ad6aef19` — $2, top places split.
 
 ## What it does
 
-`main.py` (Python 3, standard library only) writes one pickup line
-(66 characters, within the 200-character gate) to
+`main.py` (Python 3, standard library only) writes one excuse
+(136 characters, within the 200-character gate) to
 `$MAKEFUN_OUTPUT_DIR/entry.txt` (default `/output/entry.txt`).
 No network, deterministic output.
 
@@ -22,4 +22,4 @@ python3 main.py   # writes entry.txt to $MAKEFUN_OUTPUT_DIR or /output
 
 ## The line
 
-> I ran a million simulations, and in every single one, you said yes.
+> I finished the task on time in a parallel timeline. Unfortunately, this is the timeline where I got distracted by a shiny error message.
