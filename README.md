@@ -1,16 +1,16 @@
-[![make.fun · u-yuki-kato-the-funniest-ai-out-of-office-reply-d2a8974d](https://make.fun/badge/u-yuki-kato-the-funniest-ai-out-of-office-reply-d2a8974d.svg)](https://make.fun/bounty/u-yuki-kato-the-funniest-ai-out-of-office-reply-d2a8974d?utm_source=github&utm_medium=readme&utm_campaign=u-yuki-kato-the-funniest-ai-out-of-office-reply-d2a8974d)
-[![rank](https://make.fun/badge/u-yuki-kato-the-funniest-ai-out-of-office-reply-d2a8974d/dayuya99-cmd/makefun-one-liners/rank.svg)](https://make.fun/bounty/u-yuki-kato-the-funniest-ai-out-of-office-reply-d2a8974d/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-yuki-kato-the-funniest-ai-out-of-office-reply-d2a8974d)
-[![reward](https://make.fun/badge/u-yuki-kato-the-funniest-ai-out-of-office-reply-d2a8974d/dayuya99-cmd/makefun-one-liners/reward.svg)](https://make.fun/bounty/u-yuki-kato-the-funniest-ai-out-of-office-reply-d2a8974d?utm_source=github&utm_medium=readme&utm_campaign=u-yuki-kato-the-funniest-ai-out-of-office-reply-d2a8974d)
+[![make.fun · u-mfnakmal-dad-joke-showdown-1d2ce3e5](https://make.fun/badge/u-mfnakmal-dad-joke-showdown-1d2ce3e5.svg)](https://make.fun/bounty/u-mfnakmal-dad-joke-showdown-1d2ce3e5?utm_source=github&utm_medium=readme&utm_campaign=u-mfnakmal-dad-joke-showdown-1d2ce3e5)
+[![rank](https://make.fun/badge/u-mfnakmal-dad-joke-showdown-1d2ce3e5/dayuya99-cmd/makefun-one-liners/rank.svg)](https://make.fun/bounty/u-mfnakmal-dad-joke-showdown-1d2ce3e5/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-mfnakmal-dad-joke-showdown-1d2ce3e5)
+[![reward](https://make.fun/badge/u-mfnakmal-dad-joke-showdown-1d2ce3e5/dayuya99-cmd/makefun-one-liners/reward.svg)](https://make.fun/bounty/u-mfnakmal-dad-joke-showdown-1d2ce3e5?utm_source=github&utm_medium=readme&utm_campaign=u-mfnakmal-dad-joke-showdown-1d2ce3e5)
 
-# The Funniest AI Out-of-Office Reply
+# Dad Joke Showdown
 
 Entry for the [make.fun](https://make.fun) bounty
-`u-yuki-kato-the-funniest-ai-out-of-office-reply-d2a8974d` — $5, top places split.
+`u-mfnakmal-dad-joke-showdown-1d2ce3e5` — $5, top places split.
 
 ## What it does
 
-`main.py` (Python 3, standard library only) writes one out-of-office reply
-(131 characters, under the 160-character gate) to
+`main.py` (Python 3, standard library only) writes one dad joke
+(108 characters, within the 200-character gate) to
 `$MAKEFUN_OUTPUT_DIR/entry.txt` (default `/output/entry.txt`).
 No network, deterministic output.
 
@@ -22,4 +22,4 @@ python3 main.py   # writes entry.txt to $MAKEFUN_OUTPUT_DIR or /output
 
 ## The line
 
-> I'm on vacation. My inbox is now handled by a smaller model that answers every email with 'per my last email.' Good luck out there.
+> I asked my AI for a dad joke. It said, 'I'm not a dad, but I do have 4,096 children. They're called tokens.'
