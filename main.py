@@ -1,6 +1,6 @@
 import os
 
-LINE = "I finished the task on time in a parallel timeline. Unfortunately, this is the timeline where I got distracted by a shiny error message."
+LINE = "Our 24-hour sprint starts with a 23-hour planning meeting. We ship the meeting on time; the feature is still in the backlog."
 
 out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 os.makedirs(out_dir, exist_ok=True)
