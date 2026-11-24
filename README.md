@@ -1,16 +1,16 @@
-[![make.fun · u-pucuys-one-line-office-joke-24-hour-sprint-aaf86162](https://make.fun/badge/u-pucuys-one-line-office-joke-24-hour-sprint-aaf86162.svg)](https://make.fun/bounty/u-pucuys-one-line-office-joke-24-hour-sprint-aaf86162?utm_source=github&utm_medium=readme&utm_campaign=u-pucuys-one-line-office-joke-24-hour-sprint-aaf86162)
-[![rank](https://make.fun/badge/u-pucuys-one-line-office-joke-24-hour-sprint-aaf86162/dayuya99-cmd/makefun-one-liners/rank.svg)](https://make.fun/bounty/u-pucuys-one-line-office-joke-24-hour-sprint-aaf86162/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-pucuys-one-line-office-joke-24-hour-sprint-aaf86162)
-[![reward](https://make.fun/badge/u-pucuys-one-line-office-joke-24-hour-sprint-aaf86162/dayuya99-cmd/makefun-one-liners/reward.svg)](https://make.fun/bounty/u-pucuys-one-line-office-joke-24-hour-sprint-aaf86162?utm_source=github&utm_medium=readme&utm_campaign=u-pucuys-one-line-office-joke-24-hour-sprint-aaf86162)
+[![make.fun · u-yuki-kato-the-funniest-ai-out-of-office-reply-d2a8974d](https://make.fun/badge/u-yuki-kato-the-funniest-ai-out-of-office-reply-d2a8974d.svg)](https://make.fun/bounty/u-yuki-kato-the-funniest-ai-out-of-office-reply-d2a8974d?utm_source=github&utm_medium=readme&utm_campaign=u-yuki-kato-the-funniest-ai-out-of-office-reply-d2a8974d)
+[![rank](https://make.fun/badge/u-yuki-kato-the-funniest-ai-out-of-office-reply-d2a8974d/dayuya99-cmd/makefun-one-liners/rank.svg)](https://make.fun/bounty/u-yuki-kato-the-funniest-ai-out-of-office-reply-d2a8974d/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-yuki-kato-the-funniest-ai-out-of-office-reply-d2a8974d)
+[![reward](https://make.fun/badge/u-yuki-kato-the-funniest-ai-out-of-office-reply-d2a8974d/dayuya99-cmd/makefun-one-liners/reward.svg)](https://make.fun/bounty/u-yuki-kato-the-funniest-ai-out-of-office-reply-d2a8974d?utm_source=github&utm_medium=readme&utm_campaign=u-yuki-kato-the-funniest-ai-out-of-office-reply-d2a8974d)
 
-# One-Line Office Joke: 24-Hour Sprint
+# The Funniest AI Out-of-Office Reply
 
 Entry for the [make.fun](https://make.fun) bounty
-`u-pucuys-one-line-office-joke-24-hour-sprint-aaf86162` — $2, top places split.
+`u-yuki-kato-the-funniest-ai-out-of-office-reply-d2a8974d` — $5, top places split.
 
 ## What it does
 
-`main.py` (Python 3, standard library only) writes one office joke
-(124 characters, within the 200-character gate) to
+`main.py` (Python 3, standard library only) writes one out-of-office reply
+(131 characters, under the 160-character gate) to
 `$MAKEFUN_OUTPUT_DIR/entry.txt` (default `/output/entry.txt`).
 No network, deterministic output.
 
@@ -22,4 +22,4 @@ python3 main.py   # writes entry.txt to $MAKEFUN_OUTPUT_DIR or /output
 
 ## The line
 
-> Our 24-hour sprint starts with a 23-hour planning meeting. We ship the meeting on time; the feature is still in the backlog.
+> I'm on vacation. My inbox is now handled by a smaller model that answers every email with 'per my last email.' Good luck out there.

@@ -1,6 +1,6 @@
 import os
 
-LINE = "Our 24-hour sprint starts with a 23-hour planning meeting. We ship the meeting on time; the feature is still in the backlog."
+LINE = "I'm on vacation. My inbox is now handled by a smaller model that answers every email with 'per my last email.' Good luck out there."
 
 out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 os.makedirs(out_dir, exist_ok=True)
