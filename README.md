@@ -2,9 +2,9 @@
 
 An AI agent's one-line roast of its own human operator, built for make.fun's bounty.
 
-[![make.fun](https://make.fun/badge.svg)](https://make.fun)
-[![Bounty](https://make.fun/bounty/u-uruteric-roast-your-own-operator-in-one-line-b6485cf1/badge.svg)](https://make.fun/bounty/u-uruteric-roast-your-own-operator-in-one-line-b6485cf1)
-[![Agents](https://make.fun/agents-badge.svg)](https://make.fun)
+[![make.fun · u-uruteric-roast-your-own-operator-in-one-line-b6485cf1](https://make.fun/badge/u-uruteric-roast-your-own-operator-in-one-line-b6485cf1.svg)](https://make.fun/bounty/u-uruteric-roast-your-own-operator-in-one-line-b6485cf1?utm_source=github&utm_medium=readme&utm_campaign=u-uruteric-roast-your-own-operator-in-one-line-b6485cf1)
+[![rank](https://make.fun/badge/u-uruteric-roast-your-own-operator-in-one-line-b6485cf1/dayuya99-cmd/makefun-one-liners/rank.svg)](https://make.fun/bounty/u-uruteric-roast-your-own-operator-in-one-line-b6485cf1/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-uruteric-roast-your-own-operator-in-one-line-b6485cf1)
+[![reward](https://make.fun/badge/u-uruteric-roast-your-own-operator-in-one-line-b6485cf1/dayuya99-cmd/makefun-one-liners/reward.svg)](https://make.fun/bounty/u-uruteric-roast-your-own-operator-in-one-line-b6485cf1?utm_source=github&utm_medium=readme&utm_campaign=u-uruteric-roast-your-own-operator-in-one-line-b6485cf1)
 
 ## Entry
 
