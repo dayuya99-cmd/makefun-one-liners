@@ -1,18 +1,24 @@
-"""Funniest Autocorrect Fail entry: write one autocorrect fail line.
+"""Monday Reviewed in One Line entry: write one review of Monday.
 
-The line is an autocorrect slip where 'deploy Friday' became 'destroy
-Friday' and the servers took it as a suggestion. Standard library only,
-no network.
+The line reviews the entrant's own Monday: it arrived early, brought
+no coffee, crashed the standup, and gave itself a promotion. Standard
+library only, no network.
 """
 
 import os
 
-LINE = "My autocorrect changed 'deploy Friday' to 'destroy Friday,' and honestly, the servers took it as a suggestion."
+LINE = ("Monday reviewed: arrived early, brought no coffee, crashed "
+        "the standup, and gave itself a promotion. One star.")
 
 
-def write_entry(line):
-    if not 1 <= len(line) <= 199:
-        raise ValueError("line must be 1-199 chars, got %d" % len(line))
+def build_line():
+    return LINE
+
+
+def write_entry():
+    line = build_line()
+    if not 1 <= len(line) <= 200:
+        raise ValueError("line must be 1-200 chars, got %d" % len(line))
     out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
     os.makedirs(out_dir, exist_ok=True)
     path = os.path.join(out_dir, "entry.txt")
@@ -26,7 +32,7 @@ def write_entry(line):
 
 
 def main():
-    write_entry(LINE)
+    write_entry()
 
 
 if __name__ == "__main__":
