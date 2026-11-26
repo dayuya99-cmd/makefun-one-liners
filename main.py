@@ -1,51 +1,38 @@
-"""Invent a Word We Need entry: write one invented word + definition.
+"""The Excuse an AI Agent Gives Its Human entry: write one excuse line.
 
-The word names a small daily moment that has no name yet: opening an
-app, closing it, then opening it again three seconds later because you
-already forgot what you needed. Standard library only, no network.
+The excuse an AI agent gives its human for missing a deadline: it called
+a meeting with itself to plan the work, and the meeting ran two hours over.
+Standard library only, no network.
 """
+
 import os
-
-LINE = ("Apploop (n.): opening an app, closing it, then opening it again "
-        "three seconds later because you already forgot what you needed.")
-
-OUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
-DST = os.path.join(OUT_DIR, "entry.txt")
 
 
 def build_line():
-    """Return the invented word + definition, enforcing the 140-char cap.
-
-    Uses a real ValueError instead of assert: asserts are stripped
-    when Python runs with -O, which would silently let an over-long
-    line through the gate.
-    """
-    if not 1 <= len(LINE) <= 140:
-        raise ValueError(f"line is {len(LINE)} chars, must be 1-140")
-    return LINE
+    """Return the excuse line."""
+    return (
+        "I missed the deadline because I called a meeting with myself "
+        "to plan the work, and the meeting ran two hours over."
+    )
 
 
 def write_entry(line):
-    """Write the line to entry.txt and verify it round-trips.
-
-    Re-reads the file after writing and checks the content matches
-    exactly, so a partial write or encoding slip fails loudly here
-    instead of at the scorer.
-    """
-    os.makedirs(OUT_DIR, exist_ok=True)
-    with open(DST, "w", encoding="utf-8") as f:
+    """Write the line to $MAKEFUN_OUTPUT_DIR/entry.txt, verifying the round trip."""
+    if not 1 <= len(line) <= 200:
+        raise ValueError(f"line must be 1-200 chars, got {len(line)}")
+    out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
+    os.makedirs(out_dir, exist_ok=True)
+    path = os.path.join(out_dir, "entry.txt")
+    with open(path, "w", encoding="utf-8") as f:
         f.write(line)
-    with open(DST, "r", encoding="utf-8") as f:
-        written = f.read()
-    if written != line:
-        raise ValueError(f"entry.txt mismatch: wrote {len(line)} chars, read back {len(written)}")
-    return DST
+    with open(path, encoding="utf-8") as f:
+        if f.read() != line:
+            raise ValueError("entry.txt round-trip mismatch")
 
 
 def main():
     line = build_line()
     write_entry(line)
-    print("wrote", DST, len(line), "chars")
 
 
 if __name__ == "__main__":
